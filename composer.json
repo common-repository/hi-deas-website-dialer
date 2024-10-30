@@ -1,0 +1,23 @@
+{
+  "name": "damilareshobowale/hideas-library",
+  "description": "Hideas Library for Making Internet Calls",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "HiDeasWebsiteDialer\\": "src/"
+    }
+  },
+  "config": {
+    "vendor-dir": "lib",
+    "platform": {
+      "php": "8.0.0"
+    }
+  },
+  "authors": [
+    {
+      "name": "Damilare Shobowale",
+      "email": "oluwadamilareshobowale@gmail.com"
+    }
+  ],
+  "require": {}
+}
